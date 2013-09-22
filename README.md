@@ -29,7 +29,7 @@ This software contains four parts, dealing with separate functions in forward an
 
 ###Display###
 
-**Display** 
+**Display** is the data visualization part of our software. To reach a more vivid output data, this part had been written in JAVA. There are three parts in **Display**: ShowRegulation, ShowChange and ShowNetwork.
 
 This software can be built on Windows, Linux and MacOS operating platform.
 
