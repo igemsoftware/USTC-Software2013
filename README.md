@@ -126,8 +126,10 @@ What's more, for better visualization, this part was written in Java language. S
 Coming soon...
 
 ####Compile **gRNA**####
-All softwares which could compile Java are usable to compile this small game. All source code are included in floder: /Source Code/gRNA/
-
+All softwares which could compile Java are usable to compile this small game. All source code are included in floder: 
+```
+/Source Code/gRNA/
+```
 **For more information, please refer to our [wiki page](http://2013.igem.org/Team:USTC-Software).**
 ##Contacts##
 
