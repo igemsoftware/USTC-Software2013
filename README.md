@@ -87,7 +87,8 @@ Source Data:
 ```
 /Source Data/
 This floder contains the source data files of **gRNA**.
-The example database can be downloaded from RegulonDB, which can be found [here](http://regulondb.ccg.unam.mx/menu/download/datasets/index.jsp). The data which used in **gNAP** is flexible. All database in those form could be read in our software.
+The example database can be downloaded from RegulonDB. 
+The data which used in **gNAP** is flexible. All database in those form could be read in our software.
 ```
 
 ## How to Compile ##
