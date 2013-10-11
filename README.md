@@ -38,7 +38,7 @@ This software helps the biologists choosing a specific gene satisfying the regul
 This is a small game about the analysis of genetic regulatory network. Through analyzing the change of each gene's expression strength, you should figure out the interactions between them.
 
 ##Floder Structure##
-* Executable:
+Executable:
 ```
 /Executable/gNAP/Windows/32-bit/
 This floder contains the .exe file of **gNAP** on Windows 32-bit.
@@ -63,7 +63,7 @@ This floder contains the executable program file of **gFinder** which could be r
 /Executable/gRNA/
 This floder contains the executable program file of **gFinder** which could be ran on all those platforms.
 ```
-* Source Code:
+Source Code:
 ```
 /Source Code/gNAP/
 This floder contains the source code files of **gNAP**. 
@@ -83,7 +83,7 @@ The command line source files were written in C++ language and its GUI were writ
 /Source Code/gRNA/
 This floder contains the source code files of **gRNA** which were written in Java language.
 ```
-* Source Data:
+Source Data:
 ```
 /Source Data/
 This floder contains the source data files of **gRNA**.
@@ -96,6 +96,8 @@ To compile our source code, you should have:
 * Java (you can get install jre [here](http://www.java.com/))
 * ant  (the compile tool)
 * jse  (include jdk and etc.)
+
+
 ####Compile **gNAP**####
 The GUI source files are written in C++ language with Qt Creator and the operation source files are also included in **gNAP.pro**. So the main functions could be compiled across platforms using Qt 5.1.0.
 What's more, for better visualization, this part was written in Java language. So it should be compiled like this:
