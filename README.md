@@ -40,55 +40,57 @@ This is a small game about the analysis of genetic regulatory network. Through a
 ##Floder Structure##
 Executable:
 ```
-/Executable/gNAP/Windows/32-bit/
-This floder contains the .exe file of **gNAP** on Windows 32-bit.
-```
-```
-/Executable/gNAP/Windows/64-bit/
-This floder contains the .exe file of **gNAP** on Windows 64-bit.
+/Executable/gNAP/Windows/
+This floder contains the .exe file of "gNAP" on Windows.
 ```
 ```
 /Executable/gNAP/Linux/
-This floder contains the executable program file of **gNAP** on Linux.
+This floder contains the executable program file of "gNAP" on Linux.
 ```
 ```
 /Executable/gNAP/Mac OS/
-This floder contains the executable program file of **gNAP** on Mac OS.
+This floder contains the executable program file of "gNAP" on Mac OS.
 ```
 ```
 /Executable/gFinder/
-This floder contains the executable program file of **gFinder** which could be ran on all those platforms.
+This floder contains the executable program file of "gFinder" which could be ran on all those 
+platforms.
 ```
 ```
 /Executable/gRNA/
-This floder contains the executable program file of **gFinder** which could be ran on all those platforms.
+This floder contains the executable program file of "gFinder" which could be ran on all those 
+platforms.
 ```
 Source Code:
 ```
 /Source Code/gNAP/
-This floder contains the source code files of **gNAP**. 
-The command line source files were written in C++ language and its GUI were written in C++ language with Qt Creator.
+This floder contains the source code files of "gNAP". 
+The command line source files were written in C++ language 
+and its GUI were written in C++ language with Qt Creator.
 ```
 ```
 /Source Code/gNAP/visualization/
-This floder contains the source code files of **gNAP**'s visualization part. 
+This floder contains the source code files of "gNAP"'s visualization part. 
 The command line source files were written in Java language.
 ```
 ```
 /Source Code/gFinder/
-This floder contains the source code files of **gFinder**. 
-The command line source files were written in C++ language and its GUI were written in Python language.
+```
+This floder contains the source code files of "gFinder". 
+The command line source files were written in C++ language and its GUI were embedded in a 
+website.
 ```
 ```
 /Source Code/gRNA/
-This floder contains the source code files of **gRNA** which were written in Java language.
+This floder contains the source code files of "gRNA" which were written in Java language.
 ```
 Source Data:
 ```
 /Source Data/
-This floder contains the source data files of **gRNA**.
+This floder contains the source data files of "gRNA".
 The example database can be downloaded from RegulonDB. 
-The data which used in **gNAP** is flexible. All database in those form could be read in our software.
+The data which used in "gNAP" is flexible. All database in those form could be read in our 
+software.
 ```
 
 ## How to Compile ##
