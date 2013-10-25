@@ -53,20 +53,17 @@ This floder contains the executable program file of "gNAP" on Mac OS.
 ```
 ```
 /Executable/gFinder/
-This floder contains the executable program file of "gFinder" which could be ran on all those 
-platforms.
+This floder contains the executable program file of "gFinder" which could be ran on all those platforms.
 ```
 ```
 /Executable/gRNA/
-This floder contains the executable program file of "gFinder" which could be ran on all those 
-platforms.
+This floder contains the executable program file of "gFinder" which could be ran on all those platforms.
 ```
 Source Code:
 ```
 /Source Code/gNAP/
 This floder contains the source code files of "gNAP". 
-The command line source files were written in C++ language and its GUI were written in C++ 
-language with Qt Creator.
+The command line source files were written in C++ language and its GUI were written in C++ language with Qt Creator.
 ```
 ```
 /Source Code/gNAP/visualization/
@@ -76,8 +73,7 @@ The command line source files were written in Java language.
 ```
 /Source Code/gFinder/
 This floder contains the source code files of "gFinder". 
-The command line source files were written in C++ language and its GUI were embedded in a 
-website.
+The command line source files were written in C++ language and its GUI were embedded in a website.
 ```
 ```
 /Source Code/gRNA/
@@ -88,8 +84,7 @@ Source Data:
 /Source Data/
 This floder contains the source data files of "gRNA".
 The example database can be downloaded from RegulonDB. 
-The data which used in "gNAP" is flexible. All database in those form could be read in our 
-software.
+The data which used in "gNAP" is flexible. All database in those form could be read in our software.
 ```
 
 ## How to Compile ##
