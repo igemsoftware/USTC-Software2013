@@ -65,8 +65,8 @@ Source Code:
 ```
 /Source Code/gNAP/
 This floder contains the source code files of "gNAP". 
-The command line source files were written in C++ language 
-and its GUI were written in C++ language with Qt Creator.
+The command line source files were written in C++ language and its GUI were written in C++ 
+language with Qt Creator.
 ```
 ```
 /Source Code/gNAP/visualization/
@@ -75,7 +75,6 @@ The command line source files were written in Java language.
 ```
 ```
 /Source Code/gFinder/
-```
 This floder contains the source code files of "gFinder". 
 The command line source files were written in C++ language and its GUI were embedded in a 
 website.
