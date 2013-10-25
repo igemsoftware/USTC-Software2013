@@ -124,7 +124,10 @@ What's more, for better visualization, this part was written in Java language. S
 	and than the jar file will in the folder dist
 ```
 ####Compile **gFinder**####
-Coming soon...
+This is a website software which do not need to compile. All source code had been inlcuded in floder:
+```
+/Source Code/gFinder/
+```
 
 ####Compile **gRNA**####
 All softwares which could compile Java are usable to compile this small game. All source code are included in floder: 
