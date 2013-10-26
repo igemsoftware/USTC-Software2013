@@ -124,7 +124,7 @@ What's more, for better visualization, this part was written in Java language. S
 	and than the jar file will in the folder dist
 ```
 ####Compile **gFinder**####
-This is a website software which do not need to compile. You could try our software from [here](http://www.stlover.org/gFinder)All source code had been inlcuded in floder:
+This is a website software which do not need to compile. You could try our software from [here](http://www.stlover.org/gFinder).All source code had been inlcuded in floder:
 ```
 /Source Code/gFinder/
 ```
