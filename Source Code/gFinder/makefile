@@ -1,0 +1,21 @@
+objes=gFinder.o Catch.o evo.o gene.o guess.o
+libs=libtest.so
+libfinder.so:gFinder
+	g++ -c -fPIC gFinder.cpp -o gFinder.o
+	g++ -shared -Wl -o libfinder.so ${objes}
+gFinder:${objes} ${libs}
+	g++ -o gFinder ${objes} 
+gFinder.o:gFinder.h gFinder.cpp
+	g++ -c gFinder.cpp
+Catch.o:Catch.h Catch.cpp
+	g++ -c Catch.o Catch.cpp
+evo.o: evo.h evo.cpp
+	g++ -c evo evo.cpp
+guess.o:guess.h guess.cpp
+	g++ -g -c guess.cpp
+gene.o:gene.h gene.cpp
+	g++ -c gene.cpp
+test:gene.o guess.o
+	g++ -g -o test gene.o guess.o
+clean:
+	rm ${objes} test gFinder libgfinder.so

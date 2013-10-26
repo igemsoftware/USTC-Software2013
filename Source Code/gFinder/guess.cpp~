@@ -1,0 +1,63 @@
+#include"guess.h"
+
+vss guess::comparetwo(gene ga,gene gb)
+{
+	//if a and b have some simlarity of preproty ,put it here and find the common gene sequence
+	//by the way ,the moudle will be developing to computing the struct of common sequence
+	int *sa,*sb;
+	int la=ga.len,lb=gb.len;
+	sa=ga.sequen;
+	sb=gb.sequen;
+	int* fp[la];
+	for(int i=0;i<la;i++)
+	{
+		fp[i]=new int[lb];
+	}
+	for(int j=0;j<lb;j++)
+	{
+		if(sa[0]==sb[j])
+			fp[0][j]=1;
+	}
+	for(int i=0;i<la;i++)
+	{
+		if(sa[i]==sb[0])
+			fp[i][0]=1;
+	}
+
+	for(int i=1;i<la;i++)
+		for(int j=1;j<lb;j++)
+		{
+			if(sa[i]!=sb[j])
+				continue;
+			fp[i][j]=fp[i-1][j-1]+1;
+			//complete dp algorithm of common continue string
+		}
+	vss res;
+	for(int i=la-1;i>=0;i--)
+		for(int j=lb-1;j>=0;j--)
+		{
+			if(fp[i][j]<MINI_LEN)
+				continue;
+			else
+			{
+				int coml=(int)(fp[i][j]/3)*3;
+				int pi=i-(fp[i][j]-coml);
+				int pj=j-(fp[i][j]-coml);
+				int ts[coml];
+				for(int i1=pi-coml+1;i1<=pi;i1++)
+					for(int j1=pj-coml+1;j1<=pj;j1++)
+					{
+						fp[i][j]=0;
+						ts[i1-(pi-coml+1)]=sa[i1];
+					}
+				res.push_back(ts);
+			}
+		}
+	return res;
+}
+#ifdef DEBUGONE
+int main()
+{
+	guess a();
+}
+#endif

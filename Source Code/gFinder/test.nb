@@ -1,0 +1,65 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 9.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       157,          7]
+NotebookDataLength[      1475,         55]
+NotebookOptionsPosition[      1224,         41]
+NotebookOutlinePosition[      1578,         57]
+CellTagsIndexPosition[      1535,         54]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{"dat", "=", 
+   RowBox[{"Import", "[", 
+    RowBox[{
+    "\"\</Users/none/Develop/gFinder/res.txt\>\"", ",", "\"\<Table\>\""}], 
+    "]"}]}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"p1", "=", 
+   RowBox[{"ListLinePlot", "[", 
+    RowBox[{
+     RowBox[{"dat", "[", "1", "]"}], ",", 
+     RowBox[{"PlotStyle", "\[Rule]", "Red"}]}], "]"}]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{"p2", "=", 
+  RowBox[{"ListLinePlot", "[", 
+   RowBox[{
+    RowBox[{"dat", "[", "2", "]"}], ",", 
+    RowBox[{"PlotStyle", "\[Rule]", "Black"}]}], "]"}]}]}], "Input",
+ CellChangeTimes->{{3.5904124285303288`*^9, 3.590412498426063*^9}}]
+},
+WindowSize->{740, 756},
+WindowMargins->{{4, Automatic}, {Automatic, 4}},
+FrontEndVersion->"9.0 for Mac OS X x86 (32-bit, 64-bit Kernel) (January 25, \
+2013)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[557, 20, 663, 19, 63, "Input"]
+}
+]
+*)
+
+(* End of internal cache information *)
+
