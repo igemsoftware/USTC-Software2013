@@ -4,12 +4,12 @@ USTC-Software 2013
 We are USTC-Software, a team from University of Science and Technology of China. We will be competing in iGem 2013!
 
 ##Introduction##
-Our application aims to simulate genetic networks. The application analyzes the stability and the change of genetic networks after introduction of exogenous genes. Meanwhile, given the original network and specific purposes, the application traces the regulative process back and gives possible regulative patterns.
+Our application aims to simulate gene networks. The application analyzes the stability and the change of gene networks after introduction of exogenous genes. Meanwhile, given the original network and specific purposes, the application traces the regulative process back and gives possible regulative patterns.
 
 
 ##About Our Software##
-### gNAP: Genetic Network Analyse and Predict ###
-This software contains four parts, dealing with separate functions in forward and backward modeling of GRN(Genetic Regulatory Network) analyse.
+### gNAP: Gene Network Analyse and Predict ###
+This software contains four parts, dealing with separate functions in forward and backward modeling of GRN(Gene Regulatory Network) analyse.
 * 1. Start
 * 2. Monitor
 * 3. Result
@@ -34,8 +34,8 @@ This software contains four parts, dealing with separate functions in forward an
 ### gFinder: Gene Finder ###
 This software helps the biologists choosing a specific gene satisfying the regulation which they needs.
 
-### gRNA: Genetic Regulatory Network Analist ###
-This is a small game about the analysis of genetic regulatory network. Through analyzing the change of each gene's expression strength, you should figure out the interactions between them.
+### gRNA: Gene Regulatory Network Analist ###
+This is a small game about the analysis of gene regulatory network. Through analyzing the change of each gene's expression strength, you should figure out the interactions between them.
 
 ##Floder Structure##
 Executable:
@@ -53,7 +53,7 @@ This floder contains the executable program file of "gNAP" on Mac OS.
 ```
 ```
 /Executable/gFinder/
-This floder contains the executable program file of "gFinder" which could be ran on all those platforms.
+gFinder is a website software which do not need to executable program. Website:Http://www.stlover.org/gFinder
 ```
 ```
 /Executable/gRNA/
